@@ -51,6 +51,38 @@ use UD to extract useful features; then train a model, utilizing those features,
                 * suggest to select augemented views with less mutual infromation for better performance
             
 3. Generative-contrastive (= adversarial) models
+    * generate from complete input
+        * AAE (adversarial autoencoder)
+        * BiGAN
+        * ALI (same architecture as BiGAN)
+    * reconstruct from partial input
+        * coloriztion
+        * inpainting
+        * super-resolution
+
+Generative models:
+* \+ 
+    * can fit data distribution -> strong expressiveness
+* \- 
+    * sensitive to rare samples (since p(x|c)=0 => L_{MLE} -> +\infty)
+    * low level abstraction objective (learn to model pixels, not necesserily higher level representations)
+Problems can be solved by contrastive (discriminative) objectives. Hence generaive-contrastive models - best of 2 worlds
+
+GANs vs contrastive:
+reconstructive representation (expressive) vs just distinguishable representation
+
+Comparison of AE, GAN, contrastive
+Structure: generator (encoder + decoder) + discriminator
+
+|              | latent space Z | discriminator | objectives     |
+| ------------ | -------------- | ------------- | -------------- |
+| AE           | explicit       | -             | generative     |
+| GAN          | implicit       | + (heavier)   | discriminative |
+| contrastive  | explicit       | + (lighter)   | discriminative |
+
+ 
+
+
 
 
 
