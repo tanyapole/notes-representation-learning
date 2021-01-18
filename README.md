@@ -29,5 +29,5 @@ use UD to extract useful features; then train a model, utilizing those features,
 <a id="1">[1]</a> 
 Liu et al. 2020
 Self-supervised Learning: Generative or Contrastive
-[arxiv](https://arxiv.org/abs/2006.08218)
+[arxiv](https://arxiv.org/abs/2006.08218) [pdf](papers/selfsupervised_learning:_generative_or_contrastive.pdf)
  
