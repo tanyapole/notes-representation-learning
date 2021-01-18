@@ -40,8 +40,16 @@ use UD to extract useful features; then train a model, utilizing those features,
             * InstDisc - prototype
             * CMC
             * MoCo
-              use momentum contrast to substantially increacse the amount of negative samples
-              however uses a too simple positive sample strategy (a pair of positives comes from the same sample without transformation or augmentation
+                * use momentum contrast to substantially increacse the amount of negative samples
+                * however uses a too simple positive sample strategy (a pair of positives comes from the same sample without transformation or augmentation
+            * PIRL adds jigsaw augmentation
+            * SimCLR illustrates importance of a hard positive strategy by introduing data augmenttaion in 10 forms
+            * BYOL discards negative sampling
+                * critics suggest BYOL actually doesn't work
+            * InfoMin
+                * investigate positive samples augemntation
+                * suggest to select augemented views with less mutual infromation for better performance
+            
 3. Generative-contrastive (= adversarial) models
 
 
