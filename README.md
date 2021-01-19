@@ -21,6 +21,9 @@ use UD to extract useful features; then train a model, utilizing those features,
 
 [Further](self_supervised_types.md)
 
+### Contrastive learning
+[Further]
+
 
 
 
