@@ -38,6 +38,9 @@ use UD to extract useful features; then train a model, utilizing those features,
 ### Contrastive learning
 [Further](contrastive_learning.md)
 
+### Specific results
+[Further](specific.md)
+
 
 
 
