@@ -1,5 +1,19 @@
 # My notes on representation learning
-Self-supervised learning is a method of utilizing unsupervised data as supervised by extracting supervision from the data itself.
+Self-supervised learning is a method of utilizing unsupervised data as supervised by extracting supervision from the data itself. 
+
+2 tasks:
+* Pretext task == self-supervised task: artificial task for learning representation.
+* Downstream task: main task
+
+We don't really care about performance on pretext task
+
+<span style="color:orange">Any studies on how performance on the pretext task affects performance on doewnstream task</span>
+
+Difference to generative models is in their goals^
+* generative: generate well, representative
+* self-supervised: find useful features
+
+
 
 
 ### Semi-supervised learning
@@ -22,7 +36,7 @@ use UD to extract useful features; then train a model, utilizing those features,
 [Further](self_supervised_types.md)
 
 ### Contrastive learning
-[Further]
+[Further](contrastive_learning.md)
 
 
 
