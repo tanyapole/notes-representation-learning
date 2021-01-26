@@ -41,6 +41,9 @@ use UD to extract useful features; then train a model, utilizing those features,
 ### Specific results
 [Further](specific.md)
 
+### Semantic segmentation
+[Further](segm.md)
+
 
 
 
