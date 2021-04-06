@@ -33,16 +33,17 @@ use UD to extract useful features; then train a model, utilizing those features,
 2. Contrastive models (i.e. discriminative models)
 3. Generative-contrastive (= adversarial) models
 
-[Further](self_supervised_types.md)
 
-### Contrastive learning
-[Further](contrastive_learning.md)
+### Further
+[Self-supervised method types](self_supervised_types.md)
 
-### Specific results
-[Further](specific.md)
+[Contrastive learning](contrastive_learning.md)
 
-### Semantic segmentation
-[Further](segm.md)
+[Some Specific results](specific.md)
+
+[Semantic segmentation](segm.md)
+
+[SEER](seer.ipynb)
 
 
 
